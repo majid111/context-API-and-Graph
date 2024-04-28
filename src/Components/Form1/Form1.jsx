@@ -9,7 +9,7 @@ const Form1 = () => {
     }
     const inputClass='w-full border-2 rounded-lg p-4 mb-8';
     return (
-        <div className="bg-slate-50 w-1/3 mx-auto">
+        <div className="bg-slate-50 w-1/3 mx-auto p-4 rounded-lg">
             <form onSubmit={handleSubmit}>
                 <input className={inputClass} placeholder="Name" type="text" name="name" /><br />
                 <input className={inputClass} placeholder="Email" type="email" name="email" /><br />
