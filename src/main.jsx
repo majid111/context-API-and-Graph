@@ -13,6 +13,9 @@ import Comment from './Components/Comment/Comment.jsx';
 import Form from './Components/Form/Form.jsx';
 import Form1 from './Components/Form1/Form1.jsx';
 import DaisyUiForm from './Components/DaisyUiForm/DaisyUiForm.jsx';
+import Comments from './Components/Comments/Comments.jsx';
+import Photos from './Components/Photos/Photos.jsx';
+import Posts from './Components/Posts/Posts.jsx';
 
 
 const router = createBrowserRouter([
@@ -47,6 +50,18 @@ const router = createBrowserRouter([
           {
             path: "/form/DaisyUi",
             element: <DaisyUiForm></DaisyUiForm>,
+          },
+          {
+            path: "/form/comments",
+            element: <Comments></Comments>,
+          },
+          {
+            path: "/form/photos",
+            element: <Photos></Photos>,
+          },
+          {
+            path: "/form/posts",
+            element: <Posts></Posts>,
           },
           {
             path: "/form/More",

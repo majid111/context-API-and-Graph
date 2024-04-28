@@ -1,0 +1,8 @@
+/* nav{
+    border-bottom: 2px;
+    border-color: black;
+} */
+nav a.active{
+    text-decoration: underline;
+    background-color: darkgrey;
+}
