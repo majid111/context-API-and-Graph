@@ -16,6 +16,7 @@ import DaisyUiForm from './Components/DaisyUiForm/DaisyUiForm.jsx';
 import Comments from './Components/Comments/Comments.jsx';
 import Photos from './Components/Photos/Photos.jsx';
 import Posts from './Components/Posts/Posts.jsx';
+import InputManage from './Components/InputManage/InputManage.jsx';
 
 
 const router = createBrowserRouter([
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
             element: <div>Coming Soon....</div>,
           },
         ]
+      },
+      {
+        path: "/inputManage",
+        element: <InputManage></InputManage>,
       },
     ]
   },

@@ -3,6 +3,7 @@ import { useNavigation } from "react-router-dom";
 
 const Photos = () => {
     const navigation=useNavigation();
+    console.log('from photos',navigation)
 
     const [photos,setPhotos]=useState([]);
     useEffect(()=>{
